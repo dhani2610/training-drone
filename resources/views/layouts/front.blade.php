@@ -5,16 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title', 'Training Drone | Pusat Pelatihan & Sertifikasi Pilot Drone Profesional')</title>
     <meta name="description" content="@yield('meta_description', 'Pusat pelatihan dan sertifikasi resmi Pilot Drone Profesional, Pemetaan Fotogrametri RTK/PPK, Inspeksi Industri & Drone Pertanian.')">
-    <meta name="google-site-verification" content="Kv9cytZ-4oL0cG1uAMyy_swLihizXciOwQjrKus2Yvg" />
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E4Q6FRBSD3"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-E4Q6FRBSD3');
-    </script>
+    
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -1677,6 +1669,32 @@
 
     </style>
     @stack('styles')
+
+    <!-- Favicon matching navbar brand logo -->
+    
+    <link rel="alternate icon" href="{{ asset('favicon.ico') }}">
+
+    <!-- Google Search Console Verification -->
+    
+
+    
+
+    <!-- Favicon matching navbar brand logo -->
+    <link rel="icon" type="image/svg+xml" href="{{ asset('favicon.svg') }}">
+    <link rel="alternate icon" href="{{ asset('favicon.ico') }}">
+
+    <!-- Google Search Console Verification -->
+    <meta name="google-site-verification" content="-sEJmiYRXF2bABBpgJimEJf45EiVXUGS7VcHindA08s" />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YW24NPCP8Q"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-YW24NPCP8Q');
+    </script>
 </head>
 <body>
 

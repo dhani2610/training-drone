@@ -23,3 +23,10 @@ yarn-error.log
 /.vscode
 .DS_Store
 Thumbs.db
+
+*.py
+scratch/
+*.sql
+render_view_test.php
+test_db_conn.php
+test_structure.php
