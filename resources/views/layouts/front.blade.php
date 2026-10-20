@@ -1584,6 +1584,97 @@
                 font-size: 1.6rem !important;
             }
         }
+
+        /* RESPONSIVE HERO, HUD & KREDIBILITAS */
+        .hero-slide-grid {
+            display: grid;
+            grid-template-columns: 1.15fr 0.85fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .hud-metrics-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 14px;
+            margin-bottom: 18px;
+        }
+
+        .kredibilitas-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 48px;
+            align-items: center;
+        }
+
+        .keunggulan-card {
+            flex: 0 0 340px;
+            max-width: calc(100vw - 48px);
+            box-sizing: border-box;
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 16px;
+            padding: 26px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        @media (max-width: 992px) {
+            .hero-slide-grid {
+                grid-template-columns: 1fr !important;
+                gap: 28px !important;
+            }
+            .hero-slide-grid h1 {
+                font-size: 1.95rem !important;
+                line-height: 1.25 !important;
+            }
+            .kredibilitas-grid {
+                grid-template-columns: 1fr !important;
+                gap: 32px !important;
+            }
+            .keunggulan-card {
+                flex: 0 0 300px;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .gas-hero-wrapper {
+                padding: 40px 0 50px !important;
+            }
+            .hero-slide-grid h1 {
+                font-size: 1.6rem !important;
+                line-height: 1.25 !important;
+            }
+            .hero-slide-grid p {
+                font-size: 0.9rem !important;
+            }
+            .hud-metrics-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 10px;
+            }
+            .keunggulan-card {
+                flex: 0 0 calc(100vw - 52px) !important;
+                padding: 20px !important;
+            }
+            .hero-chip {
+                font-size: 0.74rem !important;
+                padding: 5px 12px !important;
+            }
+            .wa-popup-modal {
+                width: calc(100vw - 32px) !important;
+                right: 16px !important;
+                bottom: 86px !important;
+            }
+        }
+
+        @media (max-width: 440px) {
+            .hud-metrics-grid {
+                grid-template-columns: 1fr !important;
+            }
+        }
+
     </style>
     @stack('styles')
 </head>

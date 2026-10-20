@@ -1,7 +1,7 @@
 @extends('layouts.front')
 
 @section('title', 'Training Drone | Pusat Pelatihan & Sertifikasi Pilot Drone Profesional Indonesia')
-@section('meta_description', 'Lembaga pelatihan dan sertifikasi resmi Pilot Drone Profesional, Pemetaan Fotogrametri RTK/PPK, Inspeksi Industri & Drone Sprayer Pertanian.') Kelas I & II, Drone Pemetaan & Inspeksian, Drone Pertanian, dan Spesialis Pemetaan & Fotogrametri berlisensi resmi Sertifikasi Resmi.')
+@section('meta_description', 'Lembaga pelatihan dan sertifikasi resmi Pilot Drone Profesional, Pemetaan Fotogrametri RTK/PPK, Inspeksi Industri & Drone Sprayer Pertanian.')
 
 @section('content')
 
@@ -17,7 +17,7 @@
                 
                 <!-- SLIDE 1: Remote Pilot Drone Profesional & Lisensi Resmi -->
                 <div class="hero-slide active" data-slide="1" style="display: block; transition: all 0.5s ease;">
-                    <div style="display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 40px; align-items: center;">
+                    <div class="hero-slide-grid">
                         <div>
                             <div class="hero-badge" style="background: rgba(245, 158, 11, 0.18); border: 1px solid rgba(251, 191, 36, 0.45); color: #fbbf24; font-size: 0.78rem; font-weight: 800; padding: 6px 16px; border-radius: 30px; display: inline-flex; align-items: center; gap: 8px; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 0.5px;">
                                 <i class="bi bi-patch-check-fill"></i> Lisensi Remote Pilot Resmi & Standar Aviasi Sipil
@@ -66,7 +66,7 @@
                                 </div>
 
                                 <!-- Metric Cards Grid -->
-                                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 18px;">
+                                <div class="hud-metrics-grid">
                                     <div style="background: rgba(15, 35, 71, 0.45); border: 1px solid rgba(251, 191, 36, 0.25); border-radius: 12px; padding: 14px;">
                                         <div style="font-size: 0.72rem; color: #94a3b8; text-transform: uppercase; margin-bottom: 4px;">Ketinggian (Altitude)</div>
                                         <div style="font-size: 1.6rem; font-weight: 800; color: #fbbf24;">85.0 <span style="font-size: 0.85rem; font-weight: 600; color: #cbd5e1;">m AGL</span></div>
@@ -104,7 +104,7 @@
 
                 <!-- SLIDE 2: Drone Pemetaan, Fotogrametri & Survei 3D -->
                 <div class="hero-slide" data-slide="2" style="display: none; transition: all 0.5s ease;">
-                    <div style="display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 40px; align-items: center;">
+                    <div class="hero-slide-grid">
                         <div>
                             <div class="hero-badge" style="background: rgba(56, 189, 248, 0.18); border: 1px solid rgba(56, 189, 248, 0.45); color: #38bdf8; font-size: 0.78rem; font-weight: 800; padding: 6px 16px; border-radius: 30px; display: inline-flex; align-items: center; gap: 8px; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 0.5px;">
                                 <i class="bi bi-geo-alt-fill"></i> Spesialis Pemetaan & Fotogrametri Udara Presisi
@@ -151,7 +151,7 @@
                                     <span style="font-size: 0.72rem; background: rgba(56, 189, 248, 0.2); color: #38bdf8; padding: 3px 10px; border-radius: 12px; border: 1px solid rgba(56, 189, 248, 0.35); font-weight: 700;">GRID MISSION &bull; RTK FIX</span>
                                 </div>
 
-                                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 18px;">
+                                <div class="hud-metrics-grid">
                                     <div style="background: rgba(10, 30, 56, 0.5); border: 1px solid rgba(56, 189, 248, 0.25); border-radius: 12px; padding: 14px;">
                                         <div style="font-size: 0.72rem; color: #94a3b8; text-transform: uppercase; margin-bottom: 4px;">Ground Sampling Distance</div>
                                         <div style="font-size: 1.6rem; font-weight: 800; color: #38bdf8;">1.85 <span style="font-size: 0.85rem; font-weight: 600; color: #cbd5e1;">cm/px</span></div>
@@ -188,7 +188,7 @@
 
                 <!-- SLIDE 3: Inspeksi Termal Industri & Drone Pertanian -->
                 <div class="hero-slide" data-slide="3" style="display: none; transition: all 0.5s ease;">
-                    <div style="display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 40px; align-items: center;">
+                    <div class="hero-slide-grid">
                         <div>
                             <div class="hero-badge" style="background: rgba(245, 158, 11, 0.18); border: 1px solid rgba(245, 158, 11, 0.45); color: #fbbf24; font-size: 0.78rem; font-weight: 800; padding: 6px 16px; border-radius: 30px; display: inline-flex; align-items: center; gap: 8px; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 0.5px;">
                                 <i class="bi bi-shield-check"></i> Inspeksi Termal Industri & Pertanian Presisi
@@ -235,7 +235,7 @@
                                     <span style="font-size: 0.72rem; background: rgba(245, 158, 11, 0.2); color: #fbbf24; padding: 3px 10px; border-radius: 12px; border: 1px solid rgba(245, 158, 11, 0.35); font-weight: 700;">INFRARED THERMOGRAPHY</span>
                                 </div>
 
-                                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 18px;">
+                                <div class="hud-metrics-grid">
                                     <div style="background: rgba(42, 30, 6, 0.5); border: 1px solid rgba(245, 158, 11, 0.25); border-radius: 12px; padding: 14px;">
                                         <div style="font-size: 0.72rem; color: #94a3b8; text-transform: uppercase; margin-bottom: 4px;">Titik Suhu Target</div>
                                         <div style="font-size: 1.6rem; font-weight: 800; color: #fbbf24;">78.4 <span style="font-size: 0.85rem; font-weight: 600; color: #cbd5e1;">°C</span></div>
@@ -317,7 +317,7 @@
                 <div id="keunggulanSlider" style="display: flex; gap: 20px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; -ms-overflow-style: none; padding-bottom: 16px;">
                     
                     <!-- Card 1 -->
-                    <div style="flex: 0 0 360px; scroll-snap-align: start; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 26px; box-shadow: 0 4px 15px rgba(0,0,0,0.03); transition: all 0.3s ease; display: flex; flex-direction: column;">
+                    <div class="keunggulan-card" style="scroll-snap-align: start;">
                         <div style="width: 52px; height: 52px; background: #fef3c7; border-radius: 12px; display: flex; align-items: center; justify-content: center; color: #d97706; font-size: 1.5rem; margin-bottom: 18px; border: 1px solid #fde68a;">
                             <i class="bi bi-person-workspace"></i>
                         </div>
@@ -328,7 +328,7 @@
                     </div>
 
                     <!-- Card 2 -->
-                    <div style="flex: 0 0 360px; scroll-snap-align: start; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 26px; box-shadow: 0 4px 15px rgba(0,0,0,0.03); transition: all 0.3s ease; display: flex; flex-direction: column;">
+                    <div class="keunggulan-card" style="scroll-snap-align: start;">
                         <div style="width: 52px; height: 52px; background: #fef3c7; border-radius: 12px; display: flex; align-items: center; justify-content: center; color: #d97706; font-size: 1.5rem; margin-bottom: 18px; border: 1px solid #fde68a;">
                             <i class="bi bi-droplet-half"></i>
                         </div>
@@ -339,7 +339,7 @@
                     </div>
 
                     <!-- Card 3 -->
-                    <div style="flex: 0 0 360px; scroll-snap-align: start; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 26px; box-shadow: 0 4px 15px rgba(0,0,0,0.03); transition: all 0.3s ease; display: flex; flex-direction: column;">
+                    <div class="keunggulan-card" style="scroll-snap-align: start;">
                         <div style="width: 52px; height: 52px; background: #fef3c7; border-radius: 12px; display: flex; align-items: center; justify-content: center; color: #d97706; font-size: 1.5rem; margin-bottom: 18px; border: 1px solid #fde68a;">
                             <i class="bi bi-broadcast-pin"></i>
                         </div>
@@ -350,7 +350,7 @@
                     </div>
 
                     <!-- Card 4 -->
-                    <div style="flex: 0 0 360px; scroll-snap-align: start; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 26px; box-shadow: 0 4px 15px rgba(0,0,0,0.03); transition: all 0.3s ease; display: flex; flex-direction: column;">
+                    <div class="keunggulan-card" style="scroll-snap-align: start;">
                         <div style="width: 52px; height: 52px; background: #fef3c7; border-radius: 12px; display: flex; align-items: center; justify-content: center; color: #d97706; font-size: 1.5rem; margin-bottom: 18px; border: 1px solid #fde68a;">
                             <i class="bi bi-patch-check-fill"></i>
                         </div>
@@ -361,7 +361,7 @@
                     </div>
 
                     <!-- Card 5 -->
-                    <div style="flex: 0 0 360px; scroll-snap-align: start; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 26px; box-shadow: 0 4px 15px rgba(0,0,0,0.03); transition: all 0.3s ease; display: flex; flex-direction: column;">
+                    <div class="keunggulan-card" style="scroll-snap-align: start;">
                         <div style="width: 52px; height: 52px; background: #fef3c7; border-radius: 12px; display: flex; align-items: center; justify-content: center; color: #d97706; font-size: 1.5rem; margin-bottom: 18px; border: 1px solid #fde68a;">
                             <i class="bi bi-sliders"></i>
                         </div>
@@ -372,7 +372,7 @@
                     </div>
 
                     <!-- Card 6 -->
-                    <div style="flex: 0 0 360px; scroll-snap-align: start; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 26px; box-shadow: 0 4px 15px rgba(0,0,0,0.03); transition: all 0.3s ease; display: flex; flex-direction: column;">
+                    <div class="keunggulan-card" style="scroll-snap-align: start;">
                         <div style="width: 52px; height: 52px; background: #fef3c7; border-radius: 12px; display: flex; align-items: center; justify-content: center; color: #d97706; font-size: 1.5rem; margin-bottom: 18px; border: 1px solid #fde68a;">
                             <i class="bi bi-building"></i>
                         </div>
@@ -559,7 +559,7 @@
     <!-- KREDIBILITAS & PENGALAMAN (DIBIKIN KEREN DENGAN BADGE DAN JAMINAN) -->
     <section class="section-py" style="background: #f8fafc; border-bottom: 1px solid #e2e8f0;">
         <div class="container">
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center;">
+            <div class="kredibilitas-grid">
                 <div>
                     <span class="section-tag" style="background: #fef3c7; color: #d97706; border: 1px solid #fde68a;">Kredibilitas & Legalitas Penerbangan</span>
                     <h2 class="section-title" style="text-align: left;">Jaminan Standar Kompetensi & Legalitas Sertifikasi Pilot Drone Resmi</h2>
